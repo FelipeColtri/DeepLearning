@@ -80,6 +80,6 @@ print('Media: ', score.mean())
 print('Desvio padrao: ', score.std())
 
 # Salvando o parâmetros e os pesos para usar essa metrícas depois 
-with open('params.json', 'w') as file:
-    file.write(regressor.to_json())
-regressor.save_weights('weight.h5')
+# with open('params.json', 'w') as file:
+#     file.write(regressor.to_json())
+# regressor.save_weights('weight.h5')
